@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Simón Bustamante </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <header>
+        <img class="logo" src="Logo.png" alt="logo" width="120px" height=48px>
+    </header>
+        
+
+
+
+    <main>
+
+
+
+        <section id="entrada">
+
+
+
+            <textarea class="encriptador" id="texto-ususario"  cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        
+
+    
+            <div class="restricciones">
+                <img src="bi_exclamation-circle-fill.png" alt="advertencia">
+                Solo letras minúsculas y sin acentos
+            </div>
+    
+            <div class="botones">
+                <button  onclick="btnencriptar()" class="boton-encriptar">Encriptar</button>
+                <button onclick="btndesencriptar()" class="boton-desencriptar">Desencriptar</button>
+            </div>
+    
+    
+        </section>
+    
+    
+    
+    
+        <section id="respuesta">
+
+            <div>
+                <textarea class="texto-respuesta" id="texto-ususario" cols="20" rows="10" placeholder=""></textarea>
+            </div>  
+
+    
+            
+            <div class="copiar">
+                <button onclick="copiarTexto()" class="boton-copiar">Copiar</button>
+            </div>
+    
+    
+        </section>
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+<script src="scrip.js"></script>
+</body>
+</html>
